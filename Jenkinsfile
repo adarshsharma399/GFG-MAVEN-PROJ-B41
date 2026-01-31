@@ -35,6 +35,13 @@ pipeline
 				{
 					echo 'Build Success'
 				}
-			}	
+			}
+			stage('Final Success')
+			{
+				steps
+				{
+					echo 'Final Success'
+				}
+			}
 		}
 }
